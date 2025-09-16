@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #0f172a, #000);
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background: #3b82f6;
+}
+
+.content {
+  margin-top: 100px; /* to avoid navbar overlap */
+  padding: 2rem;
+  text-align: center;
+}
+
+.page {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
